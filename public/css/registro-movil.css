@@ -1,0 +1,125 @@
+@media (min-width: 375px) {
+    *{border: none;
+        margin: none;
+        padding: none;
+        box-sizing: border-box;
+        outline: none;
+        }
+   
+   
+   
+   
+        main {display: flex;
+            margin-top: 0;
+            border-top:0 ;
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom: rgba(163, 162, 162, 0.993) 20px solid;
+            border-left: rgba(163, 162, 162, 0.993)20px solid;
+            border-right: rgba(163, 162, 162, 0.993) 20px solid;
+            width: 90vw;
+            background-color:rgba(183, 183, 183, 0.993) ;
+            align-items: center;
+          }
+    
+    
+    
+    #registro {
+        display: flex;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        
+        flex-direction: column;
+    }
+    .texto{width: 70%;
+        height: 2rem;
+    padding: 4px;
+border-radius: 30px;
+color: #666;
+font-size: 10px;
+}
+.box{display: flex;
+flex-direction: column;}
+label{font-size: 26px;
+margin-bottom: 2rem;}
+.boxes{width: 2rem;
+height: 2rem;
+margin-top: 15px;
+
+}
+
+.boton{display: flex;
+flex-direction:row;
+width: 90%;
+height:2rem;
+border-radius: 30px; 
+font-size: 10px;
+color: snow;
+padding: 15px;
+background-color:#1259c3;
+margin-top: 3rem;
+border: snow solid 4px;}
+
+
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

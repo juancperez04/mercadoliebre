@@ -1,0 +1,133 @@
+@media (min-width: 1024px) {
+    *{margin: none;
+    border: none;
+outline: none;
+padding: none
+;}
+
+
+header{height: 27vh;}
+
+
+
+    div {
+        display: flex;
+        width: 100%;
+        flex-flow: row nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+       
+        ;
+        
+    }
+
+
+    a {display: block;
+        font-size: 10;
+        text-decoration: underline;
+        color: black;
+
+
+    }
+
+    .bannerprincipal {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
+        font-size: 16px;
+
+    }
+
+    h2 {
+        font-size: 12px;
+       
+        width: 33%;
+    }
+
+
+
+    article {
+        width: 22%;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+
+
+
+    #logomercado {
+        width: 33%;
+        margin-right: 50px;
+        
+    }
+
+    #contenedormenu {
+        display: none;
+        text-align: center;
+    }
+
+    #contenedormenu a {
+        display: none;
+    }
+
+
+
+    .descripcion {
+        display: block;
+    }
+
+    .cajadearticulos {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+
+    }
+
+    .precio {
+        flex-basis: 30%;
+    }
+
+    .descuento {
+        flex-basis: 70%;
+    }
+    #barrabusqueda  {
+        display: flex;
+        width: 55%;
+        justify-content: space-between;
+        background-color: #EAC926;
+        height: 2rem;
+        
+        }
+         #barrabusqueda  input{flex-grow: 1;
+            padding: 1px;
+        
+          background-color:snow;
+        border-radius: 12px 0px 0px 12px;
+          }
+          
+        
+        
+          #barrabusqueda   button {background-color:snow;
+        
+          color: #666;
+          border-radius: 0px 12px 12px 0px;}
+
+
+          footer{display:flex;
+            flex-direction: row;
+        
+    margin-top: 2rem;}
+   
+}
