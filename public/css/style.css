@@ -53,6 +53,7 @@ header {
   background-color: #eac926;
   padding-right: 40px;
   padding-top: 10px;
+  box-sizing: border-box;
 }
 
 h2 {
